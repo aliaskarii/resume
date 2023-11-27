@@ -2,8 +2,8 @@ import React from 'react'
 function App() {
   return (
     <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
-      {/* <nav>
-        <div className="block">
+
+        {/* <div className="block">
           <h1 className="mb-0 text-5xl font-bold text-gray-750">
             ALI ASKARI
           </h1>
@@ -17,36 +17,8 @@ function App() {
         <div className="justify-between px-3 mt-0 mb-5 text-3xl font-bold leading-none text-gray-200 initials-container bg-gray-750 print:bg-black">
           <div className="text-center initial">R</div>
           <div className="text-center initial">P</div>
-        </div>
-        <section className="pb-4 mt-4 first:mt-0">
-              <div className="break-inside-avoid">
-                <section className="pb-2 mb-2 border-b-2 break-inside-avoid">
-                  <ul className="list-inside pr-7">
+        </div> */}
 
-                    <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700">
-                      <a href="mailto:me@xigma.dev" className="group">
-                        <span className="mr-8 text-xl font-semibold text-gray-700 leading-snugish">
-                          Email:
-                        </span>
-                        me@xigma.dev
-                        <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
-                          ↗
-                        </span>
-                      </a>
-                    </li>
-                    <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700">
-                      <a href="tel:+989153343508">
-                        <span className="mr-5 text-xl font-semibold text-gray-700 leading-snugish">
-                          Phone:
-                        </span>
-                        +98 915 334 3508
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-            </section>
-      </nav> */}
 
       <aside className='bg-gray-400  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
         <div className="break-inside-avoid">
@@ -309,73 +281,3 @@ function App() {
 }
 
 export default App
-{/* <section className="pb-4 mt-4 first:mt-0">
- */}
-// <div className="container mx-auto m-0 font-sans antialiased font-normal text-base leading-default min-h-screen">
-//   <table className="table-auto">
-//     <tbody>
-//       <tr>
-//         <td>
-//           <h2>INFO</h2>
-//           <hr></hr>
-//           <div className="flex flex-row justify-start">
-//             <h1>Phone : </h1>
-//             <h2>+98 915 334 3508</h2>
-//           </div>
-//           <div className="flex flex-row justify-start">
-//             <h1>Email :</h1>
-//             <a href="email:me@xigma.dev">me@xigma.dev</a>
-//           </div>
-//           <div className="flex flex-row justify-start">
-//             <h1>skype :</h1>
-//             <h2>cloner1376</h2>
-//           </div>
-//         </td>
-//         <td>profile</td>
-//       </tr>
-//       <tr>
-//         <td rowspan="5">
-//           <h2>SKILLS</h2>
-//           <hr></hr>
-//           <p>
-//             HTML ,CSS , React , Javascript , Git ,Linux ,Python ,Docker
-//           </p>
-//         </td>
-//         <td>achivement</td>
-//       </tr>
-//       <tr>
-//         <td>abilities</td>
-//       </tr>
-//       <tr>
-//         <td>
-//           <h2>EDUCATION</h2>
-//           <hr></hr>
-//           <p>
-//             <h2>Software Engineering</h2>
-//             <h1>Bachelore of Science</h1>
-//             <h1>Birjand University of Technology, Iran</h1>
-//           </p>
-//         </td>
-//       </tr>
-//       <tr>
-//         <td>
-//           <h2>LAMGUAGE</h2>
-//           <hr></hr>
-//           <div className="flex flex-row justify-between">
-//             <div className="flex flex-row justify-start">
-//               <h2>Perisan : </h2>
-//               <h1>Native</h1>
-//             </div>
-//             <div className="flex flex-row justify-start">
-//               <h2>English : </h2>
-//               <h1>Intermediate</h1>
-//             </div>
-//           </div>
-//         </td>
-//       </tr>
-//       <tr>
-//         <td></td>
-//       </tr>
-//     </tbody>
-//   </table>
-// </div>
