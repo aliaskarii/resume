@@ -3,7 +3,7 @@ function App() {
   return (
     <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
 
-        {/* <div className="block">
+      {/* <div className="block">
           <h1 className="mb-0 text-5xl font-bold text-gray-750">
             ALI ASKARI
           </h1>
@@ -112,7 +112,12 @@ function App() {
 
                 <section className="mb-2 break-inside-avoid">
                   <p className="mt-2 leading-normal text-gray-700 text-md">
-                    Front-End Developer with proven experience at Netizens Technologies in helping companies create and maintain a better code base for reusability. Passionate about learning and development .Eager to tackle more complex problems and continue to find ways to maximize user efficiency.
+                    an accomplished, always learning front-end developer with a diverse skill set including several cutting-edge technologies.
+                    I excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React. My proficiency extends to Tailwind CSS and Material CSS. Giving me the ability to create visually appealing and highly customizable user interfaces with ease.
+                    In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications, providing a seamless user experience for traders and investors.
+                    One of the standout features I see in myself is my ability to work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users. Whether it's implementing financial charts for trading platforms or creating insightful data representations for analytics applications, I can bring a creative and analytical approach to my work.
+                    I, as a front-end developer, am a multiskilled professional with expertise in React.JS, Tailwind CSS, Material CSS, MQL, and Python.
+                    My neat proficiency in chart drawing libraries enhances my capability to deliver engaging and functional user interfaces across various domains, hence making me a valuable asset for projects that require a combination of technical prowess and creative problem-solving.
                   </p>
                 </section>
               </div>
@@ -152,7 +157,7 @@ function App() {
                       <span className="transform -translate-y-px select-none text-gray-550">
                         ›
                       </span>
-                      Experience developing indicator and expert adviser with mql language  
+                      Experience developing indicator and expert adviser with mql language
                     </li>
                     <li>
                       <span className="transform -translate-y-px select-none text-gray-550">
@@ -175,7 +180,7 @@ function App() {
                   <header>
                     <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                       <a href="#!" className="group">
-                        Admin Dashboard 
+                        Admin Dashboard
                       </a>
                     </h3>
                     <p className="leading-normal text-md text-gray-550">
@@ -183,24 +188,24 @@ function App() {
                     </p>
                   </header>
                   <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                    A Personal Statistics Admin Dashboard Project with React Javascript and Material Tailwind CSS  
+                    A Personal Statistics Admin Dashboard Project with React Javascript and Material Tailwind CSS
                   </p>
                 </section>
                 <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
                   <header>
                     <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                       <a href="#!" className="group">
-                        TrexLevel 
+                        TrexLevel
                       </a>
                       <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
                       </span>
                     </h3>
                     <p className="leading-normal text-md text-gray-550">
-                      2022 | MQL4 
+                      2022 | MQL4
                     </p>
                   </header>
                   <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                    Metatrader indicator to calculate and draw daily level based on Trex Price Action method using mql4 
+                    Metatrader indicator to calculate and draw daily level based on Trex Price Action method using mql4
                   </p>
                 </section>
                 <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
@@ -217,7 +222,7 @@ function App() {
                     </p>
                   </header>
                   <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                    LSTM algorithm for predicting iran stock market  
+                    LSTM algorithm for predicting iran stock market
                   </p>
                 </section>
               </div>
