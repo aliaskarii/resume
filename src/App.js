@@ -3,10 +3,10 @@ function Resume() {
   return (
     <div className='flex flex-col justify-center items-center pt-4 font-nun'>
       <div className="w-2/4 flex flex-col justify-start items-center p-4 border-2 border-black">
-        <h1 className="flex mb-0 text-5xl font-bold text-gray-750 pt-6 pb-2">
+        <h1 className="flex mb-0 text-5xl font-extrabold text-gray-750 pt-6 pb-2 tracking-widest">
           ALIASKARI
         </h1>
-        <h2 className="flex m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish pb-6">
+        <h2 className="flex m-0 ml-2 text-2xl font-normal text-gray-700 leading-snugish pb-6 font-noto tracking-wide">
           Front End Developer
         </h2>
       </div>
