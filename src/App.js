@@ -1,20 +1,17 @@
 import React from 'react'
 function Resume() {
   return (
-    <div className=''>
-      <div className="flex flex-col justify-start items-center p-4 font-sans">
-        <h1 className="flex mb-0 text-5xl font-bold text-gray-750">
+    <div className='flex flex-col justify-center items-center pt-4'>
+      <div className="w-2/4 flex flex-col justify-start items-center p-4 font-sans border-2 border-black">
+        <h1 className="flex mb-0 font-sans text-5xl font-bold text-gray-750 pt-6 pb-2">
           ALIASKARI
         </h1>
-        <h2 className="flex m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">
+        <h2 className="flex m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish pb-6">
           Front End Developer
         </h2>
-        <h3 className="m-0 mt-2 ml-2 mb-2 font-semibold text-md text-gray-550 leading-snugish">
-          IRAN
-        </h3>
       </div>
       <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
-        <aside className='bg-gray-300  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
+        <aside className='bg-gray-300  h-min-screen w-full max-w-md p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
           <div className="break-inside-avoid">
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
               INFO
@@ -134,37 +131,49 @@ function Resume() {
                   </h2>
                   <section className="mb-2 break-inside-avoid">
                     <ul className="mt-2.1 text-md text-gray-700 leading-normal">
-                      <li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        Create Responsive Site With W3C Standards.
+                        Always learning front-end with a diverse skill set including several cutting-edge technologies.
                       </li>
-                      <li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users.
+                        Create visually appealing and highly customizable user interfaces with Tailwind CSS and Material CSS.
                       </li>
-                      <li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        Provided commentary to improve maintainability
+                        excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React.
                       </li>
-                      <li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        Provided commentary to improve maintainability
+                        work with chart drawing libraries in React to create visually engaging and interactive data visualizations.
                       </li>
-                      <li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ›
+                        </span>
+                        My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications.
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ›
+                        </span>
+                        Implementing financial charts for trading platforms or creating insightful data representations for analytics applications
+                      </li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
                         Experience developing indicator and expert adviser with mql language
                       </li>
-                      <li>
+                      <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
@@ -184,7 +193,7 @@ function Resume() {
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
-                        <a href="#!" className="group">
+                        <a href="https://xigma.dev/admin-dashboard" className="group">
                           Admin Dashboard
                         </a>
                       </h3>
@@ -199,7 +208,7 @@ function Resume() {
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
-                        <a href="#!" className="group">
+                        <a href="https://blog.conisma.com" className="group">
                           Conisma Blog
                         </a>
                         <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
@@ -210,7 +219,7 @@ function Resume() {
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                      Educational blog about stock market technical analysis based on trigger price action method 
+                      Educational blog about stock market technical analysis based on trigger price action method
                     </p>
                   </section>
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
