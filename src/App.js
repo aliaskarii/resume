@@ -2,7 +2,7 @@ import React from 'react'
 function Resume() {
   return (
     <div className='flex flex-col justify-center items-center pt-4 font-nun'>
-      <div className="w-2/4 flex flex-col justify-start items-center p-4 border-2 border-black">
+      <div className="w-2/5 flex flex-col justify-start items-center p-4 border-2 border-black">
         <h1 className="flex mb-0 text-5xl font-extrabold text-gray-750 pt-6 pb-2 tracking-widest">
           ALIASKARI
         </h1>
@@ -10,8 +10,8 @@ function Resume() {
           Front End Developer
         </h2>
       </div>
-      <div className='flex m-0 antialiased font-normal text-base leading-default min-h-screen'>
-        <aside className='bg-gray-300  h-min-screen w-full max-w-sm p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
+      <div className='flex m-0 antialiased font-normal text-base leading-default min-h-screen w-3/5'>
+        <aside className='bg-gray-300  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
           <div className="break-inside-avoid">
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
               INFO
@@ -78,10 +78,16 @@ function Resume() {
                     Tailwind.css
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                    Material Tailwind
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                     Javascript
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                     Python
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                    MQL4
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                     Git
@@ -100,7 +106,7 @@ function Resume() {
             </section>
           </div>
         </aside >
-        <main className="w-full flex flex-wrap justify-evenly p-6">
+        <main className="flex flex-wrap justify-evenly p-6">
           <div className="max-w-5xl p-3 mx-auto my-auto">
 
 
@@ -116,10 +122,7 @@ function Resume() {
                     <p className="mt-2 leading-normal text-gray-700 text-md">
                       an accomplished, always learning front-end developer with a diverse skill set including several cutting-edge technologies.<br />
                       I excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React. <br />My proficiency extends to Tailwind CSS and Material CSS. Giving me the ability to create visually appealing and highly customizable user interfaces with ease.
-                      In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. <br />My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications, providing a seamless user experience for traders and investors.<br />
-                      One of the standout features I see in myself is my ability to work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users. Whether it is implementing financial charts for trading platforms or creating insightful data representations for analytics applications, I can bring a creative and analytical approach to my work.<br />
-                      I, as a front-end developer, am a multiskilled professional with expertise in React.JS, Tailwind CSS, Material CSS, MQL, and Python.<br />
-                      My neat proficiency in chart drawing libraries enhances my capability to deliver engaging and functional user interfaces across various domains, hence making me a valuable asset for projects that require a combination of technical prowess and creative problem-solving.
+                      In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. <br />
                     </p>
                   </section>
                 </div>
