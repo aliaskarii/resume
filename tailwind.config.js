@@ -6,6 +6,7 @@ module.exports = ({
     extend: {
       fontFamily: {
         sans: ['Nunito sans', 'sans-serif'],
+        nun: ['Nunito sans'],
       },
       colors: {
         xiketic: '#060818',

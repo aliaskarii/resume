@@ -1,16 +1,16 @@
 import React from 'react'
 function Resume() {
   return (
-    <div className='flex flex-col justify-center items-center pt-4'>
-      <div className="w-2/4 flex flex-col justify-start items-center p-4 font-sans border-2 border-black">
-        <h1 className="flex mb-0 font-sans text-5xl font-bold text-gray-750 pt-6 pb-2">
+    <div className='flex flex-col justify-center items-center pt-4 font-nun'>
+      <div className="w-2/4 flex flex-col justify-start items-center p-4 border-2 border-black">
+        <h1 className="flex mb-0 text-5xl font-bold text-gray-750 pt-6 pb-2">
           ALIASKARI
         </h1>
         <h2 className="flex m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish pb-6">
           Front End Developer
         </h2>
       </div>
-      <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
+      <div className='flex m-0 antialiased font-normal text-base leading-default min-h-screen'>
         <aside className='bg-gray-300  h-min-screen w-full max-w-sm p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
           <div className="break-inside-avoid">
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
