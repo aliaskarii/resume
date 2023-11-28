@@ -2,7 +2,7 @@ import React from 'react'
 function Resume() {
   return (
     <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
-      <aside className='bg-gray-400  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
+      <aside className='bg-gray-300  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
         <div className="break-inside-avoid">
           <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
             INFO
@@ -30,12 +30,23 @@ function Resume() {
                     </span>
                   </a>
                 </li>
+                <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 py-3">
+                  <a href="live:cloner1376" className="group">
+                    <span className="mr-8 text-xl font-semibold text-black leading-snugish">
+                      Skype:
+                    </span>
+                    Cloner1376
+                    <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
+                      ↗
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
           </section>
         </div>
         <div className="break-inside-avoid">
-          <h2 className="mb-2 text-xl font-bold tracking-widest text-black print:font-normal px-4 pt-4">
+          <h2 className="my-4 text-xl font-bold tracking-widest text-black print:font-normal px-4 pt-4">
             SKILLS
           </h2>
           <hr></hr>
@@ -45,34 +56,34 @@ function Resume() {
                 <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   HTML5
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   CSS3
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   React
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   BOOTSTRAP
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Tailwind.css
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Javascript
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Python
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Git
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Linux
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   Docker
                 </li>
-                <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                   REST API
                 </li>
               </ul>
@@ -94,11 +105,11 @@ function Resume() {
 
                 <section className="mb-2 break-inside-avoid">
                   <p className="mt-2 leading-normal text-gray-700 text-md">
-                    an accomplished, always learning front-end developer with a diverse skill set including several cutting-edge technologies.
-                    I excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React. My proficiency extends to Tailwind CSS and Material CSS. Giving me the ability to create visually appealing and highly customizable user interfaces with ease.
-                    In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications, providing a seamless user experience for traders and investors.
-                    One of the standout features I see in myself is my ability to work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users. Whether it is implementing financial charts for trading platforms or creating insightful data representations for analytics applications, I can bring a creative and analytical approach to my work.
-                    I, as a front-end developer, am a multiskilled professional with expertise in React.JS, Tailwind CSS, Material CSS, MQL, and Python.
+                    an accomplished, always learning front-end developer with a diverse skill set including several cutting-edge technologies.<br/>
+                    I excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React. <br/>My proficiency extends to Tailwind CSS and Material CSS. Giving me the ability to create visually appealing and highly customizable user interfaces with ease.
+                    In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. <br/>My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications, providing a seamless user experience for traders and investors.<br/>
+                    One of the standout features I see in myself is my ability to work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users. Whether it is implementing financial charts for trading platforms or creating insightful data representations for analytics applications, I can bring a creative and analytical approach to my work.<br/>
+                    I, as a front-end developer, am a multiskilled professional with expertise in React.JS, Tailwind CSS, Material CSS, MQL, and Python.<br/>
                     My neat proficiency in chart drawing libraries enhances my capability to deliver engaging and functional user interfaces across various domains, hence making me a valuable asset for projects that require a combination of technical prowess and creative problem-solving.
                   </p>
                 </section>
@@ -112,37 +123,37 @@ function Resume() {
                 <section className="mb-2 break-inside-avoid">
                   <ul className="mt-2.1 text-md text-gray-700 leading-normal">
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
                       Create Responsive Site With W3C Standards.
                     </li>
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
-                      Crafted literate, Comprehensive Source Code.
+                      work with chart drawing libraries in React. Allowing me to create visually engaging and interactive data visualizations, making complex information easily understandable for end-users.
                     </li>
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
                       Provided commentary to improve maintainability
                     </li>
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
-                      Configure Linux servers and web server applications
+                      Provided commentary to improve maintainability
                     </li>
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
                       Experience developing indicator and expert adviser with mql language
                     </li>
                     <li>
-                      <span className="transform -translate-y-px select-none text-gray-550">
+                      <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                         ›
                       </span>
                       Configure Linux servers and web server applications
@@ -227,7 +238,7 @@ function Resume() {
                     <span className="font-semibold text-gray-700 text-md leading-snugish">
                       Major:
                     </span>
-                    Computer Science
+                    Software Engineering
                   </p>
 
                 </section>
