@@ -11,7 +11,7 @@ function Resume() {
         </h2>
       </div>
       <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
-        <aside className='bg-gray-300  h-min-screen w-full max-w-md p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
+        <aside className='bg-gray-300  h-min-screen w-full max-w-sm p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
           <div className="break-inside-avoid">
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
               INFO
@@ -190,7 +190,7 @@ function Resume() {
                     PROJECTS
                   </h2>
 
-                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
+                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="https://xigma.dev/admin-dashboard" className="group">
@@ -205,7 +205,7 @@ function Resume() {
                       A Personal Statistics Admin Dashboard Project with React Javascript and Material Tailwind CSS
                     </p>
                   </section>
-                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
+                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="https://blog.conisma.com" className="group">
@@ -222,7 +222,7 @@ function Resume() {
                       Educational blog about stock market technical analysis based on trigger price action method
                     </p>
                   </section>
-                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
+                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="#!" className="group">
@@ -239,7 +239,7 @@ function Resume() {
                       Metatrader indicator to calculate and draw daily level based on Trex Price Action method using mql4
                     </p>
                   </section>
-                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
+                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="#!" className="group">
