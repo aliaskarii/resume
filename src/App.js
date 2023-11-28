@@ -1,25 +1,7 @@
 import React from 'react'
-function App() {
+function Resume() {
   return (
     <div className='flex m-0 font-sans antialiased font-normal text-base leading-default min-h-screen'>
-
-      {/* <div className="block">
-          <h1 className="mb-0 text-5xl font-bold text-gray-750">
-            ALI ASKARI
-          </h1>
-          <h2 className="m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">
-            Front End Developer
-          </h2>
-          <h3 className="m-0 mt-2 ml-2 mb-2 font-semibold text-md text-gray-550 leading-snugish">
-            Iran
-          </h3>
-        </div>
-        <div className="justify-between px-3 mt-0 mb-5 text-3xl font-bold leading-none text-gray-200 initials-container bg-gray-750 print:bg-black">
-          <div className="text-center initial">R</div>
-          <div className="text-center initial">P</div>
-        </div> */}
-
-
       <aside className='bg-gray-400  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
         <div className="break-inside-avoid">
           <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
@@ -284,5 +266,4 @@ function App() {
     </div >
   )
 }
-
-export default App
+export default Resume
