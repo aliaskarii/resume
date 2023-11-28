@@ -200,6 +200,23 @@ function Resume() {
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="#!" className="group">
+                          Conisma Blog
+                        </a>
+                        <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
+                        </span>
+                      </h3>
+                      <p className="leading-normal text-md text-gray-550">
+                        2021 | Wordpress , Responsive
+                      </p>
+                    </header>
+                    <p className="mt-2.1 text-md text-gray-700 leading-normal">
+                      Educational blog about stock market technical analysis based on trigger price action method 
+                    </p>
+                  </section>
+                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid">
+                    <header>
+                      <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
+                        <a href="#!" className="group">
                           TrexLevel
                         </a>
                         <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
