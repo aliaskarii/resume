@@ -1,5 +1,8 @@
 import React from 'react'
+
+
 function Resume() {
+
   return (
     <div className='flex flex-col justify-center items-center pt-4 font-nun'>
       <div className="w-2/5 flex flex-col justify-start items-center p-4 border-2 border-black">
@@ -16,7 +19,7 @@ function Resume() {
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
               INFO
             </h2>
-            <hr></hr>
+            <hr className='border-2'></hr>
             <section className="mb-2 break-inside-avoid">
               <div className="my-1 last:pb-1">
                 <ul className="flex flex-wrap text-sm2 leading-relaxed -mr-1.6 -mb-1 mt-2.1">
@@ -58,7 +61,7 @@ function Resume() {
             <h2 className="my-4 text-xl font-bold tracking-widest text-black print:font-normal px-4 pt-4">
               SKILLS
             </h2>
-            <hr></hr>
+            <hr className='border-2'></hr>
             <section className="mb-2 break-inside-avoid">
               <div className="my-1 last:pb-1">
                 <ul className="flex flex-wrap text-sm2 leading-relaxed -mr-1.6 -mb-1 mt-2.1">
@@ -138,7 +141,7 @@ function Resume() {
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        Always learning front-end with a diverse skill set including several cutting-edge technologies.
+                        Learning front-end always with a diverse skill set including several cutting-edge technologies.
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
@@ -150,19 +153,19 @@ function Resume() {
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React.
+                        Excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React.
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        work with chart drawing libraries in React to create visually engaging and interactive data visualizations.
+                        Work with chart drawing libraries in React to create visually engaging and interactive data visualizations.
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ›
                         </span>
-                        My fluency in MQL allows me to integrate complex trading algorithms and strategies into financial applications.
+                        Integrate complex trading algorithms and strategies into financial applications with MQL
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
@@ -242,7 +245,7 @@ function Resume() {
                       Metatrader indicator to calculate and draw daily level based on Trex Price Action method using mql4
                     </p>
                   </section>
-                  <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
+                  <section className="pb-4 mb-4 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a href="#!" className="group">
@@ -282,6 +285,31 @@ function Resume() {
                       Software Engineering
                     </p>
 
+                  </section>
+                </div>
+              </section>
+              <section className="pb-2 mt-4 first:mt-0">
+                <div className="break-inside-avoid">
+                  <h2 className="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
+                    LANGUAGE
+                  </h2>
+                  <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid flex flex-row justify-start">
+                    <div className=''>
+                      <h3 className="flex-grow text-xl font-semibold text-gray-700 leading-snugish">
+                        Perisan
+                      </h3>
+                      <p className="leading-normal text-md text-gray-550">
+                        Native
+                      </p>
+                    </div>
+                    <div className='ml-20'>
+                      <h3 className="flex-grow text-xl font-semibold text-gray-700 leading-snugish">
+                        English
+                      </h3>
+                      <p className="leading-normal text-md text-gray-550">
+                        Intermediate
+                      </p>
+                    </div>
                   </section>
                 </div>
               </section>
