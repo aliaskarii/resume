@@ -308,31 +308,6 @@ function Resume() {
                   </section>
                 </div>
               </section>
-              <section className="pb-2 mt-4 first:mt-0">
-                <div className="break-inside-avoid">
-                  <h2 className="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
-                    LANGUAGE
-                  </h2>
-                  <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid flex flex-row justify-start">
-                    <div className=''>
-                      <h3 className="flex-grow text-xl font-semibold text-gray-700 leading-snugish">
-                        Perisan
-                      </h3>
-                      <p className="leading-normal text-md text-gray-550">
-                        Native
-                      </p>
-                    </div>
-                    <div className='ml-20'>
-                      <h3 className="flex-grow text-xl font-semibold text-gray-700 leading-snugish">
-                        English
-                      </h3>
-                      <p className="leading-normal text-md text-gray-550">
-                        Intermediate
-                      </p>
-                    </div>
-                  </section>
-                </div>
-              </section>
             </div>
 
           </div>
