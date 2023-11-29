@@ -5,16 +5,16 @@ function Resume() {
 
   return (
     <div className='flex flex-col justify-center items-center pt-4 font-nun'>
-      <div className="w-2/5 flex flex-col justify-start items-center p-4 border-2 border-black">
-        <h1 className="flex mb-0 text-5xl font-extrabold text-gray-750 pt-6 pb-2 tracking-widest">
-          ALIASKARI
+      <div className="w-[14CM] flex flex-col justify-start items-center p-4 border-2 border-black">
+        <h1 className="flex mb-0 text-5xl font-extrabold text-gray-750 pt-4 pb-2 tracking-widest">
+          ALI  ASKARI
         </h1>
-        <h2 className="flex m-0 ml-2 text-2xl font-normal text-gray-700 leading-snugish pb-6 font-noto tracking-wide">
+        <h2 className="flex m-0 ml-2 text-2xl font-normal text-gray-700 leading-snugish pb-4 font-noto tracking-wide">
           Front End Developer
         </h2>
       </div>
-      <div className='flex m-0 antialiased font-normal text-base leading-default min-h-screen w-3/5'>
-        <aside className='bg-gray-300  h-min-screen w-full max-w-[20rem] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
+      <div className='flex m-0 antialiased font-normal text-base leading-default min-h-screen w-[21CM]'>
+        <aside className='bg-gray-300  h-min-screen w-full max-w-[6CM] p-8  transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100 flex flex-col justify-start items-center'>
           <div className="break-inside-avoid">
             <h2 className="mb-2 px-4 pt-4 text-xl font-bold tracking-widest text-black print:font-normal">
               INFO
@@ -26,31 +26,27 @@ function Resume() {
                   <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 py-3">
                     <a href="tel:+989153343508">
                       <span className="mr-5 text-xl font-semibold text-black leading-snugish">
-                        Phone:
+                        Phone
                       </span>
-                      +98 915 334 3508
+                      <div>+98 915 334 3508</div>
                     </a>
                   </li>
                   <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 py-3">
                     <a href="mailto:me@xigma.dev" className="group">
                       <span className="mr-8 text-xl font-semibold text-black leading-snugish">
-                        Email:
+                        Email
                       </span>
-                      me@xigma.dev
-                      <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
-                        ↗
-                      </span>
+                      <div>me@xigma.dev</div>
+
                     </a>
                   </li>
                   <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 py-3">
                     <a href="live:cloner1376" className="group">
                       <span className="mr-8 text-xl font-semibold text-black leading-snugish">
-                        Skype:
+                        Skype
                       </span>
-                      Cloner1376
-                      <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">
-                        ↗
-                      </span>
+                      <div>Cloner1376</div>
+
                     </a>
                   </li>
                 </ul>
@@ -104,6 +100,9 @@ function Resume() {
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
                     REST API
                   </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black leading-relaxed print:bg-white print:border-inset bg-gray-250">
+                    Figma
+                  </li>
                 </ul>
               </div>
             </section>
@@ -123,9 +122,11 @@ function Resume() {
 
                   <section className="mb-2 break-inside-avoid">
                     <p className="mt-2 leading-normal text-gray-700 text-md">
-                      an accomplished, always learning front-end developer with a diverse skill set including several cutting-edge technologies.<br />
-                      I excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React. <br />My proficiency extends to Tailwind CSS and Material CSS. Giving me the ability to create visually appealing and highly customizable user interfaces with ease.
-                      In addition to my front-end expertise, I also possess advanced skills in MQL (MetaQuotes Language) and Python programming. <br />
+                      Always learning front-end developer with a diverse skill set including several cutting-edge technologies with a flair for design and functionality.<br/>
+                      Beyond web development, bring five years of hands-on experience in the financial markets, specializing in Forex analysis and trading.<br/>
+                      proficiency extends to MQL (MetaQuotes Language) programming, seamlessly integrating intricate trading algorithms into applications.<br/>
+                      This unique blend of front-end expertise and financial acumen allows to create visually appealing interfaces that seamlessly incorporate complex financial functionalities.<br/>
+                      With a keep eye for detail and a holistic approach, bring a valuable perspective to projects requiring a fusion of front-end development and financial market insights.<br/>
                     </p>
                   </section>
                 </div>
@@ -139,49 +140,43 @@ function Resume() {
                     <ul className="mt-2.1 text-md text-gray-700 leading-normal">
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
-                        Learning front-end always with a diverse skill set including several cutting-edge technologies.
+                        Create visually appealing and highly customizable user interfaces with <b>Tailwind CSS </b>and <b>Material Tailwind CSS</b>.
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
-                        Create visually appealing and highly customizable user interfaces with Tailwind CSS and Material CSS.
+                        Excel in crafting responsive user interfaces, with a particular focus on Modern CSS Layouts Tools(<b>Flex Box</b>).
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
-                        Excel in crafting dynamic and responsive user interfaces, with a particular focus on utilizing React.
+                        Work with chart drawing libraries in React to create visually engaging and interactive data visualizations using (<b>Apexchart</b> , Recharts , Nivo , React-Vis)
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
-                        Work with chart drawing libraries in React to create visually engaging and interactive data visualizations.
+                        Integrate complex trading algorithms and strategies into financial applications with <b>MQL</b>
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
-                        </span>
-                        Integrate complex trading algorithms and strategies into financial applications with MQL
-                      </li>
-                      <li className='my-4'>
-                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
                         Implementing financial charts for trading platforms or creating insightful data representations for analytics applications
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
                         Experience developing indicator and expert adviser with mql language
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ›
+                          ●
                         </span>
                         Configure Linux servers and web server applications
                       </li>
