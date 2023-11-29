@@ -110,16 +110,12 @@ function Resume() {
         </aside >
         <main className="flex flex-wrap justify-evenly p-6">
           <div className="max-w-5xl p-3 mx-auto my-auto">
-
-
-            <div className="overflow-scroll col-gap-16 md:col-count-2 print:col-count-2 md:h-letter-col-full print:h-letter-col-full col-fill-balance">
-
+            <div className="col-gap-16 md:col-count-2 print:col-count-2 md:h-letter-col-full print:h-letter-col-full col-fill-balance">
               <section className="pb-2 mt-4 border-b-4 first:mt-0">
                 <div className="break-inside-avoid">
                   <h2 className="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
                     SUMMARY
                   </h2>
-
                   <section className="mb-2 break-inside-avoid">
                     <p className="mt-2 leading-normal text-gray-700 text-md">
                       Always learning front-end developer with a diverse skill set including several cutting-edge technologies with a flair for design and functionality.<br/>
@@ -186,11 +182,9 @@ function Resume() {
               </section>
               <section className="pb-2  mt-4 border-b-4 first:mt-0">
                 <div className="break-inside-avoid">
-
                   <h2 className="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
                     PROJECTS
                   </h2>
-
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
@@ -279,7 +273,6 @@ function Resume() {
                       </span>
                       Software Engineering
                     </p>
-
                   </section>
                 </div>
               </section>
@@ -311,7 +304,6 @@ function Resume() {
             </div>
 
           </div>
-
         </main>
       </div >
     </div>
