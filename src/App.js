@@ -168,7 +168,7 @@ function Resume() {
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ●
                         </span>
-                        Experience developing indicator and expert adviser with mql language
+                        Experience developing indicator and expert adviser with <b>MQL</b>
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
@@ -210,7 +210,7 @@ function Resume() {
                         </span>
                       </h3>
                       <p className="leading-normal text-md text-gray-550">
-                        2021 | Wordpress , Responsive
+                        2021 | Wordpress, Responsive
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
@@ -231,7 +231,7 @@ function Resume() {
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                      Metatrader indicator to calculate and draw daily level based on Trex Price Action method using mql4
+                      Metatrader indicator to calculate and draw daily level based on Trex Price Action method using MQL4
                     </p>
                   </section>
                   <section className="pb-4 mb-4 break-inside-avoid my-2">
@@ -267,9 +267,9 @@ function Resume() {
                         2016 – 2021 | Bachelore of Science
                       </p>
                     </header>
-                    <p className="mt-1 leading-normal text-md text-gray-650">
-                      <span className="font-semibold text-gray-700 text-md leading-snugish">
-                        Major:
+                    <p className="mt-1 leading-normal text-md text-gray-650 inline-block">
+                      <span className="inline-block font-semibold text-gray-700 text-md">
+                        Major: 
                       </span>
                       Software Engineering
                     </p>
