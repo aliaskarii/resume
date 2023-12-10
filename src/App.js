@@ -61,6 +61,39 @@ function Resume() {
             <section className="mb-2 break-inside-avoid">
               <div className="my-1 last:pb-1">
                 <ul className="flex flex-wrap text-sm2 -mr-1.6 -mb-1 mt-2.1">
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Python
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    My SQL
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    MQL4
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Git
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    CI/CD
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Linux
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Docker
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    REST API
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Figma
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Wordpress
+                  </li>
+                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
+                    Photoshop
+                  </li>
                   <li className="text-md px-2.5 py-0.5 mr-1.6 mb-1 text-black bg-gray-250">
                     HTML5
                   </li>
@@ -74,7 +107,7 @@ function Resume() {
                     BOOTSTRAP
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Tailwind.css
+                    Tailwind CSS
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
                     Material Tailwind
@@ -84,27 +117,6 @@ function Resume() {
                   </li>
                   <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
                     TypeScript
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Python
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    MQL4
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Git
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Linux
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Docker
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    REST API
-                  </li>
-                  <li className="text-md px-2.5 py-1 mr-1.6 mb-1 text-black bg-gray-250">
-                    Figma
                   </li>
                 </ul>
               </div>
@@ -121,22 +133,57 @@ function Resume() {
                   </h2>
                   <section className="mb-2 break-inside-avoid">
                     <p className="mt-2 leading-normal text-gray-700 text-md text-justify">
-                      Always learning front-end developer with a diverse skill set including several cutting-edge technologies with a flair for design and functionality.<br />
-                      Beyond web development, bring five years of hands-on experience in the financial markets, specializing in Forex analysis and trading.<br />
-                      proficiency extends to MQL (MetaQuotes Language) programming, seamlessly integrating intricate trading algorithms into applications.<br />
-                      This unique blend of front-end expertise and financial acumen allows to create visually appealing interfaces that seamlessly incorporate complex financial functionalities.<br />
-                      With a keep eye for detail and a holistic approach, bring a valuable perspective to projects requiring a fusion of front-end development and financial market insights.<br />
+                      Always learning front-end developer with a diverse skill set including several cutting-edge technologies with a flair for design and functionality.
+                      Beyond web development, bring five years of hands-on experience in the financial markets, specializing in Forex analysis and trading.
+                      This unique blend of front-end expertise and financial acumen allows to create visually appealing interfaces that seamlessly incorporate complex financial functionalities.
+                      With a keen eye for detail and a holistic approach, bring a valuable perspective to projects requiring a fusion of front-end development and financial market insights.
                     </p>
                   </section>
                 </div>
               </section>
-              <section className="pb-2 mt-4 border-b-4 first:mt-0">
+              <section className="pb-2 mt-4 border-b-4 first:mt-0 flex">
                 <div className="break-inside-avoid">
                   <h2 className="mb-2 text-xl font-bold tracking-widest text-gray-700">
                     ABILITIES
                   </h2>
                   <section className="mb-2 break-inside-avoid">
                     <ul className="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Utilized Python libraries such as <b>Pandas</b> and <b>Matplotlib</b> to analyze and visualize complex datasets, extracting actionable insights for informed decision-making.
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Utilizing <b>Docker</b> to streamline and containerize applications
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Adept at database design,optimization,and management in <b>MySQL</b>
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Configure <b>Linux</b> servers and web server applications
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Implemented end-to-end <b>CI/CD</b> pipelines, automating the build, test, and deployment processes for software applications using tools such as Github Actions, GitLab CI.
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Communicatie with <b>REST API</b> using fetch, Axios
+                      </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ●
@@ -153,25 +200,13 @@ function Resume() {
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ●
                         </span>
-                        Work with chart drawing libraries in React to create visually engaging and interactive data visualizations using (<b>Apexchart</b> , Recharts , Nivo , React-Vis)
-                      </li>
-                      <li className='my-4'>
-                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ●
-                        </span>
-                        Communicatie with <b>REST API</b> using fetch , Axios
+                        Proficient in leveraging <b>WordPress</b> to design and develop comprehensive <b>websites</b>, demonstrating expertise in customization, <b>plugin</b> integration, and <b>responsive</b> design implementation.
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
                           ●
                         </span>
                         Implementing financial charts for trading platforms or creating insightful data representations for analytics applications
-                      </li>
-                      <li className='my-4'>
-                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
-                          ●
-                        </span>
-                        Configure Linux servers and web server applications
                       </li>
                       <li className='my-4'>
                         <span className="transform -translate-y-px select-none text-gray-550 mr-2">
@@ -184,6 +219,12 @@ function Resume() {
                           ●
                         </span>
                         Experience developing indicator and expert adviser with <b>MQL</b>
+                      </li>
+                      <li className='my-4'>
+                        <span className="transform -translate-y-px select-none text-gray-550 mr-2">
+                          ●
+                        </span>
+                        Work with chart drawing libraries in React to create visually engaging and interactive data visualizations using (<b>Apexchart</b>, Recharts, Nivo, React-Vis)
                       </li>
 
                     </ul>
@@ -250,7 +291,7 @@ function Resume() {
                         </span>
                       </h3>
                       <p className="leading-normal text-md text-gray-550">
-                        2020 | Python , JupyterLab
+                        2020 | Python, JupyterLab
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
