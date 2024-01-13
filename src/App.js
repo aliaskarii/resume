@@ -260,7 +260,7 @@ function Resume() {
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a
-                          href="https://xigma.dev/admin-dashboard"
+                          href="https://github.com/aliaskarii/admin-dashboard/"
                           className="group"
                         >
                           Admin Dashboard
@@ -271,15 +271,15 @@ function Resume() {
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                      A Personal Statistics Admin Dashboard Project with React
-                      Javascript and Material Tailwind CSS
+                    This project showcases a single-page application built with React, Material Tailwind CSS, and ApexCharts.
+                    It fetches random data from a REST API and visualizes it using ApexCharts.
                     </p>
                   </section>
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
                     <header>
                       <h3 className="text-xl font-semibold text-gray-700 leading-snugish">
                         <a
-                          href="https://xigma.dev/exchange-dashboard"
+                          href="https://github.com/aliaskarii/exchange-template/"
                           className="group"
                         >
                           Exchange
@@ -290,8 +290,9 @@ function Resume() {
                       </p>
                     </header>
                     <p className="mt-2.1 text-md text-gray-700 leading-normal">
-                      A Personal Exchange Dashboard Project with React
-                      Javascript and Material UI And Redux for State Management
+                      A Personal Exchange Dashboard Project 
+                      This project serves as a demonstration of my skills in React, Redux, and Material-UI. 
+                      It provides a simple template for an exchange dashboard.
                     </p>
                   </section>
                   <section className="pb-4 mb-4 border-b-2 break-inside-avoid my-2">
